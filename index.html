@@ -1,14 +1,78 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Denis</title>
 </head>
-<body>
-   <div class="header"><div>Денис Паламарчук</div><h1></div>
-   <div class="main"></div>
-   <div class="footer"></div>
+    <header class="header">
+        <nav>
+            <ul class="hr"> 
+                <li><a href="#ContactInfo" style="color: rgb (255, 255, 255)">Contact information</a></li>
+                <li><a href="#Education" style="color: rgb (255, 255, 255)">Education</a></li>
+                <li><a href="#Aboutmyself" style="color: rgb (255, 255, 255)">About myself</a></li>
+                <li><a href="#Codeexample" style="color: rgb (255, 255, 255)">Code example</a></li>
+                <li><a href="#Skills" style="color: rgb (255, 255, 255)">Skills</a></li>
+                <li><a href="#Language" style="color: rgb (255, 255, 255)">Languages</a></li>
+            </ul>   
+        </nav>  
+        <img src="263.jpg" alt="Avatar">
+    <h1>DENIS PALAMARCHUK</h1>
+    </header>
+    <main>
+        <div id="ContactInfo">
+        <ul>  <h2>Contact information:</h2>
+            <li><img src="new-post.png" alt="mail"> magdurman91@gmail.com</li>
+            <li><img src="phone.png" alt="telephone"> +375255424647</li>
+            <li><img src="github.png" alt="github"><a href="https://github.com/DenisPalamar">DenisPalamar</a></li>
+            </ul>
+     </div>
+
+     <div id="Education"> 
+         <h2> Education: </h2>
+            <p><a href ="https://bntu.by/" >Belarusian National Technical University.</a></p>
+            <img src="./Logo_BNTU.png" alt="BNTUlogo">
+            <p><a href ="https://bntu.by/faculties/ipf/ipf-vkt">Vacuum and compressor technology. 2011-2018.</a></p>
+     </div>
+      <section id="Aboutmyself">
+            <h2>About myself:</h2>
+            <p>Beginner, but very motivated student of RS School.</p>
+     </section>
+      <div id="Codeexample"> 
+        <h2>Code example:</h2> 
+        <code>
+            <pre>
+                main {
+                    flex:1 1 auto;
+                }
+            .wrapper{
+                min-height: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+        </pre>
+            </code>
+     </div>
+      <div id="Skills"> 
+         <ol> <h2>Skills:</h2>
+          <li>HTML  Basics;</li>
+          <li>CSS  Basics;</li>
+          <li>JS  Basics;</li>
+          <li>Git  Basics.</li>
+         </ol>
+         </div>
+       <div id="Language">
+             <ul><h2>Languages:</h2>
+        <li>Russian;</li>
+        <li>Belarussian;</li>
+        <li> English (A2).</li>
+    </ul>
+      </div>
+    </main>
+      <footer class="footer"><time datetime="2022-01-03"><a href="https://rs.school/js-stage0/"><img src="rs_school_js.svg" alt="RSS"></a>2022</time>
+         <span><a href="https://github.com/DenisPalamar"><img src="github.png" alt="github"></a></span>
+    </footer>
 </body>
 </html>
